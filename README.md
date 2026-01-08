@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/massenumlogo.png" alt="massenum logo" width="200"/>
+  <img src="assets/massenumlogo.png" alt="massenum logo" width="500"/>
 </p>
 
 <h1 align="center">massenum</h1>
