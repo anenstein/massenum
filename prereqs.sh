@@ -47,6 +47,7 @@ fi
 
 echo -e "\n[*] Installing OS packages (Debian/Ubuntu)..."
 sudo apt update && sudo apt install -y nmap gowitness jq
+sudo apt install -y libpcap-dev
 
 
 export PATH="$PATH:$HOME/go/bin"
