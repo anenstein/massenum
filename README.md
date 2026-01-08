@@ -11,9 +11,11 @@ A recon tool designed for pentesters working with large domain or IP scopes. It 
 - gowitness
 
 ### If you are lazy there's a script in the repo that does it for you
+`prereqs.sh`
 [!] It requires Go to be installed
 
 ## 📁 Output Structure
+```
 recon_20260107_1530/
 ├── domains/
 │   ├── domains.txt
@@ -31,5 +33,5 @@ recon_20260107_1530/
 │   └── tech_info.txt
 ├── screenshots/
 │   └── [screenshots]
-
+```
 
