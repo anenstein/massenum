@@ -12,6 +12,7 @@ A recon tool designed for pentesters working with large domain or IP scopes. It 
 
 #### If you are lazy there's a script in the repo that does it for you
 `prereqs.sh`
+
 [!] It requires Go to be installed
 
 ## 📁 Output Structure
