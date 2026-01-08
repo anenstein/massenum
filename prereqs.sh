@@ -48,6 +48,9 @@ fi
 echo -e "\n[*] Installing OS packages (Debian/Ubuntu)..."
 sudo apt update && sudo apt install -y nmap gowitness jq
 
+
+export PATH="$PATH:$HOME/go/bin"
+
 echo -e "\n[*] Verifying tools..."
 for t in subfinder dnsx httpx naabu assetfinder waybackurls; do
     if command -v "$t" >/dev/null; then
@@ -56,5 +59,3 @@ for t in subfinder dnsx httpx naabu assetfinder waybackurls; do
         echo "[X] $t not found — something went wrong"
     fi
 done
-
-echo -e "\n[+] All done!"
