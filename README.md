@@ -55,6 +55,7 @@ chmod +x prereqs.sh
 This installs:
 - Go-based tools: subfinder, dnsx, httpx, naabu, assetfinder, waybackurls
 - System tools: nmap, gowitness, jq
+- libpcap-dev
 
 ## Usage
 
