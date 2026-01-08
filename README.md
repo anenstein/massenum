@@ -10,7 +10,7 @@ A recon tool designed for pentesters working with large domain or IP scopes. It 
 - waybackurls
 - gowitness
 
-### If you are lazy there's a script in the repo that does it for you
+#### If you are lazy there's a script in the repo that does it for you
 `prereqs.sh`
 [!] It requires Go to be installed
 
@@ -34,4 +34,35 @@ recon_20260107_1530/
 ├── screenshots/
 │   └── [screenshots]
 ```
+## Installation
 
+```
+git clone https://github.com/anenstein/massenum.git
+cd mass-enum
+```
+
+#### Install required tools
+
+Use the provided tool installer:
+```
+chmod +x prereqs.sh
+./prereqs.sh
+```
+This installs:
+- Go-based tools: subfinder, dnsx, httpx, naabu, assetfinder, waybackurls
+- System tools: nmap, gowitness, jq
+
+## Usage
+
+Create a targets.txt file with one domain or IP per line. Mixed input is supported. Example:
+```bash
+example.com
+72.184.216.34
+portal.company.org/pos-web
+```
+
+Run the enumeration script:
+```bash
+chmod +x massenum.sh
+./massenum.sh
+```
