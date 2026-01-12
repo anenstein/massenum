@@ -101,7 +101,7 @@ This installs:
 
 #### Possible issues
 
-###### It suddenly doesn't recognize tools the script depends on?
+###### It suddenly doesn't recognize the tools the script depends on?
 
 just run `export PATH=$PATH:$(go env GOPATH)/bin`
 
