@@ -99,6 +99,12 @@ This installs:
 - System tools: gowitness
 - libpcap-dev (for naabu)
 
+##### Possible issues
+
+###### It suddenly doesn't recognize tools the script depends on?
+
+just run `export PATH=$PATH:$(go env GOPATH)/bin`
+
 ## Usage
 
 Create a `targets.txt` file with one domain or IP per line. Mixed input is supported.
@@ -130,9 +136,3 @@ At the end of execution, you'll see:
     - Subdomains in scope: 280
     - Subdomains filtered out: 94
 ```
-
-## Possible issues
-
-#### It suddenly doesn't recognize tools the script depends on?
-
-just run `export PATH=$PATH:$(go env GOPATH)/bin`
